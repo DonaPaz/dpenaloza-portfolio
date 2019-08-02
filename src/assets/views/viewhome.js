@@ -1,39 +1,13 @@
 export const viewHome = () => {
-
-  document.getElementById('nav-bar').innerHTML = `
-  <div class="container">
-
-  <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">Hola, soy DanielaPaz</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#/about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#/projects">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#/contact" tabindex="-1" aria-disabled="true">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<lu><hr></lu>
-</div>
-  `
   
   document.getElementById('root').innerHTML = `
   <div class="container">
   <div class="jumbotron">
   <div class="row">
       <div class="col-md-5">
+      <img class="img-fluid" src="https://i.ibb.co/7rbDn7b/avatar.png" alt="avatar" border="0">
+
+      <p>
   </div>
   <div class="col-md-7">
   <h1 class="display-4">DanielaPaz</h1>
@@ -46,6 +20,7 @@ export const viewHome = () => {
 </div>
 </div>
 </div>
+
 `
 
 }
