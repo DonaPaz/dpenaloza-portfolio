@@ -1,14 +1,11 @@
-import { viewHome } from './viewhome.js'
+//import { viewHome } from './viewhome.js'
 
 export const viewAbout = () => {
 	
 	document.getElementById('root').innerHTML = `
-		<h1>Hola soy el nosotros</h1>
-		<button id="btn-about-to-home">Ir a home</button>
+	<div class="container">
+		<h1>About</h1>
+	</div>
 	`
 
-	document.getElementById('btn-about-to-home').addEventListener('click', () => {
-		viewHome();
-		window.location.hash = '#/home';
-	})
 }

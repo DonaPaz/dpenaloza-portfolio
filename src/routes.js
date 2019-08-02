@@ -3,11 +3,11 @@
 import { viewAbout } from './assets/views/viewabout.js';
 import { viewContact } from './assets/views/viewcontact.js';
 import { viewHome } from './assets/views/viewhome.js';
-import { viewInfo } from './assets/views/viewinfo.js';
+import { ViewProjects } from './assets/views/viewprojects.js';
 import { viewSpecialists } from './assets/views/viewspecialists.js';
 
 const changeRoute = (hash) => {
-  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '' || hash === '#/' || hash === '/#') {
+  if (hash === '#/about' || hash === '#/contact' || hash === '#/home' || hash === '#/projects' || hash === '#/especialistas' || hash === '' || hash === '#/' || hash === '/#') {
     return showView(hash);
   }
   return showView(hash);
@@ -24,14 +24,14 @@ const showView = (hash) => {
   else if ( router === 'home') {
       viewHome()
   }
-  else if (router === 'nosotros'){
+  else if (router === 'about'){
     viewAbout();
   }
-  else if (router === 'contacto'){
+  else if (router === 'contact'){
     viewContact();
   }
-  else if (router === 'info'){
-    viewInfo();
+  else if (router === 'projects'){
+    ViewProjects();
   }
   else if (router === 'especialistas'){
     viewSpecialists();
