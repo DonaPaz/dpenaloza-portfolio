@@ -2,7 +2,7 @@
   "name": "dpenaloza-portfolio",
   "version": "1.0.0",
   "description": "daniela's portfolio",
-  "main": "src/index.html",
+  "main": "index.html",
   "dependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-modules-commonjs": "^7.5.0",
