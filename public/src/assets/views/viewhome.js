@@ -5,9 +5,8 @@ export const viewHome = () => {
   <div class="jumbotron">
   <div class="row">
       <div class="col-md-5">
-      <img class="img-fluid" src="https://i.ibb.co/7rbDn7b/avatar.png" alt="avatar" border="0">
+      <img class="img-fluid" src="https://i.ibb.co/tH2pphW/dp.png" alt="avatar" border="0">
 
-      <p>
   </div>
   <div class="col-md-7">
   <h1 class="display-4">DanielaPaz</h1>
@@ -20,6 +19,8 @@ export const viewHome = () => {
 </div>
 </div>
 </div>
+
+<img class="img-fluid" src="/public/src/img/circle.png" alt="circulo">
 
 `
 

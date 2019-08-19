@@ -2,7 +2,8 @@
   "name": "dpenaloza-portfolio",
   "version": "1.0.0",
   "description": "daniela's portfolio",
-  "main": "index.html",
+  "main": "public/index.html",
+  
   "dependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-modules-commonjs": "^7.5.0",
@@ -18,7 +19,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d src/"
+    "deploy": "gh-pages -d public/"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,5 @@
   "bugs": {
     "url": "https://github.com/DonaPaz/dpenaloza-portfolio/issues"
   },
-  "homepage": "https://github.com/DonaPaz/dpenaloza-portfolio#readme"
+  "homepage": "https://donapaz.github.io/dpenaloza-portfolio/"
 }

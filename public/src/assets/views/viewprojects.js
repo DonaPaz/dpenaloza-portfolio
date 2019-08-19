@@ -22,11 +22,11 @@ export const ViewProjects = () => {
             </p>
             </div>
         
-        <div class="col-md-4">
+        <div class="col-md-4 ">
         <h2>
 				Heading
 			</h2>
-			<p>
+			<p class = "project">
 				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
 			</p>
 			<p>

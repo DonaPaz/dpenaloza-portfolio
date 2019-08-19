@@ -1,4 +1,4 @@
-import { initRouter } from "./routes.js";
+import { initRouter } from "./src/routes.js";
 
 const init = () => {
     initRouter()
