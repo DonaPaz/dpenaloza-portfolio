@@ -2,7 +2,7 @@ export const viewHome = () => {
   
   document.getElementById('root').innerHTML = `
   <div class="container">
-  <div class="jumbotron">
+  <div class="jumbotron bg-0">
   <div class="row">
       <div class="col-md-5">
       <img class="img-fluid" src="https://i.ibb.co/tH2pphW/dp.png" alt="avatar" border="0">
@@ -19,10 +19,6 @@ export const viewHome = () => {
 </div>
 </div>
 </div>
-
-<img class="img-fluid" src="/public/src/img/circle.png" alt="circulo">
-
 `
-
 }
 

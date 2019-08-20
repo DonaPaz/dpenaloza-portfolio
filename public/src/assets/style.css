@@ -1,3 +1,11 @@
-.project {
-    background-color: lighten(#f0ad4e, 46.7%)
-  }
+body {
+  background-image: url('../img/circle.png');
+  background-position-x: 105%;
+  background-position-y: 150%;
+  background-repeat: no-repeat
+  
+}
+
+.jumbotron {
+  background-color: transparent !important; 
+}
