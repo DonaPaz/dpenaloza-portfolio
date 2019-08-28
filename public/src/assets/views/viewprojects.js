@@ -1,5 +1,3 @@
-//import { viewHome } from './viewhome.js'
-
 export const ViewProjects = () => {
 	document.getElementById('root').innerHTML = `
     <div class="container">
@@ -12,7 +10,7 @@ export const ViewProjects = () => {
       <div class="row">
 			
 				<div class="card-deck">
-  				<div class="card">
+  				<div class="card data-aos="zoom-in">
     				<img class="card-img-top" src="..." alt="Card image cap">
     					<div class="card-body">
       					<h5 class="card-title">Card title</h5>

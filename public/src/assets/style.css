@@ -1,11 +1,23 @@
-body {
+/* .backImg {
   background-image: url('../img/circle.png');
   background-position-x: 105%;
   background-position-y: 150%;
   background-repeat: no-repeat
   
-}
+} */
 
 .jumbotron {
   background-color: transparent !important; 
 }
+
+.avatar{
+  width: 80%;
+
+}
+
+.backImg {
+  background-image: url('../img/circle.png'), url('../img/circle.png'), url('../img/circle.png');
+  background-size: 10%, 5%, 20%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 10% -10%, 55% 30%, 90% 150%
+  }

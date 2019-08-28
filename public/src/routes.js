@@ -7,7 +7,7 @@ import { ViewProjects } from './assets/views/viewprojects.js';
 import { viewSpecialists } from './assets/views/viewspecialists.js';
 
 const changeRoute = (hash) => {
-  if (hash === '#/about' || hash === '#/contact' || hash === '#/home' || hash === '#/projects' || hash === '#/especialistas' || hash === '' || hash === '#/' || hash === '/#') {
+  if (hash === '#/about' || hash === '#/contact' || hash === '#/home' || hash === '#/projects' || hash === '' || hash === '#/' || hash === '/#') {
     return showView(hash);
   }
   return showView(hash);
