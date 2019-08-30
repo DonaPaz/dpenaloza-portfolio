@@ -1,51 +1,81 @@
 export const ViewProjects = () => {
-	document.getElementById('root').innerHTML = `
-    <div class="container">
-      <div class="jumbotron">
-        <div><h1>Projects</h1></div>  
-      	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        	</p>
-      </div>
+  document.getElementById('root').innerHTML = `
+  
+  <div class="container">
+    <div><h1>Últimos Proyectos</h1></div>  
 
-      <div class="row">
-			
-				<div class="card-deck">
-  				<div class="card data-aos="zoom-in">
-    				<img class="card-img-top" src="..." alt="Card image cap">
-    					<div class="card-body">
-      					<h5 class="card-title">Card title</h5>
-      						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    					</div>
-    					<div class="card-footer">
-      					<small class="text-muted">Last updated 3 mins ago</small>
-    					</div>
-  					</div>
-						
-						<div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+  
+  <br><br>
+
+  <div class="container">
+  
+    <div class="row">
+      <div class="card-deck">
+        
+      <div class="card col-md-4">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <button type="button" class="btn btn-secondary">Ver más</button>
+      </div>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+          
+        <div class="card col-md-4">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-secondary">Ver más</button>
+          </div>
+        </div>
+
+        <div class="card col-md-4">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-secondary">Ver más</button>
+        </div>
+      </div>
+      
+        </div>
+      </div>
     </div>
   </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
   </div>
-</div>
-</div>
-</div>
 
 	`
     
 }
 
+
+    $(document).ready(function(){
+     
+      $('.col-md-4').hover(
+   
+      // trigger when on hover
+        function(){
+          $(this).animate({
+            marginTop: "-=1%",
+          },200);
+          
+        },
+   
+      // trigger when hover out
+        function(){
+          $(this).animate({
+            marginTop: "0%"
+          },200);
+        }
+   
+      );
+   
+    });
+  

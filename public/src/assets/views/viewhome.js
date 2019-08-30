@@ -13,9 +13,8 @@ export const viewHome = () => {
   <br>
   <p class="lead">Soy traductora de diseño a lenguaje de programación, con preparación orientada al usuario
   y conocimiento en metodologías ágiles. Curiosa y en aprendizaje constante. <br>
-  Me gusta la música, leer y compartir en familia, también participo como bombera voluntaria. </p>
+  También participo como bombera voluntaria y en mi tiempo libre disfruto de la música, de la lectura o la naturaleza. </p>
   <hr class="my-5">
-  
 </div>
 </div>
 </div>

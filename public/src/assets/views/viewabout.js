@@ -1,4 +1,3 @@
-//import { viewHome } from './viewhome.js'
 
 export const viewAbout = () => {
 	
