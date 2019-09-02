@@ -3,9 +3,20 @@
 export const viewContact = () => {
 	document.getElementById('root').innerHTML = `
     <div class="container">
-        <h1>Contacto</h1>
+      <h1>Contacto</h1>
+
+      <div>¿Quieres comunicarte conmigo? Encuentrame en:
+
+      </div>
+
+    </div>
+
+  
+      
     </div>
 	`
-    
+  
+
+		
 }
 

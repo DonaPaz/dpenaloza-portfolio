@@ -1,3 +1,4 @@
+
 export const ViewProjects = () => {
   document.getElementById('root').innerHTML = `
   
@@ -11,39 +12,42 @@ export const ViewProjects = () => {
   
     <div class="row">
       <div class="card-deck">
-        
-      <div class="card col-md-4">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <button type="button" class="btn btn-secondary">Ver más</button>
-      </div>
-    </div>
+
           
-        <div class="card col-md-4">
-          <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card move">
+        <img class="card-img-top" src="./src/img/tictactoe.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Tic Tac Toe -  Gato</h5>
+          <p class="card-text">Popular juego del "gato", desarrollado en React Native.</p>
+        </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-secondary">Ver más</button>
+        </div>
+      </div>
+
+      <div class="card move">
+        <img class="card-img-top" src="./src/img/mdlinks.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Md-Links</h5>
+          <p class="card-text">Librería desarrollada para Node, que lee y analiza links de archivos Markdown.</p>
+        </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-secondary">Ver más</button>
+        </div>
+      </div>
+
+      
+        <div class="card move">
+          <img class="card-img-top" src="./src/img/vkh.png" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Síndrome-VHK</h5>
+            <p class="card-text">Sitio realizado para la agrupación del Síndrome de VKH, accesibilidad web AA.</p>
           </div>
           <div class="card-footer">
             <button type="button" class="btn btn-secondary">Ver más</button>
           </div>
         </div>
 
-        <div class="card col-md-4">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        </div>
-        <div class="card-footer">
-          <button type="button" class="btn btn-secondary">Ver más</button>
-        </div>
-      </div>
       
         </div>
       </div>
@@ -56,26 +60,5 @@ export const ViewProjects = () => {
 }
 
 
-    $(document).ready(function(){
-     
-      $('.col-md-4').hover(
-   
-      // trigger when on hover
-        function(){
-          $(this).animate({
-            marginTop: "-=1%",
-          },200);
-          
-        },
-   
-      // trigger when hover out
-        function(){
-          $(this).animate({
-            marginTop: "0%"
-          },200);
-        }
-   
-      );
-   
-    });
+
   

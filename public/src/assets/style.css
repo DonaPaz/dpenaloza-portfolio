@@ -1,11 +1,6 @@
-/* .backImg {
-  background-image: url('../img/circle.png');
-  background-position-x: 105%;
-  background-position-y: 150%;
-  background-repeat: no-repeat
-  
-} */
-
+h1{
+  color: #333333;
+}
 .jumbotron {
   background-color: transparent !important; 
 }
@@ -15,6 +10,12 @@
 
 }
 
+@media (max-width: 600px) {
+  .jumbotron, .avatar {
+    text-align: center !important;
+  }
+}
+
 .backImg {
   background-image: url('../img/circle.png'), url('../img/circle.png'), url('../img/circle.png');
   background-size: 10%, 5%, 20%;
@@ -22,8 +23,61 @@
   background-position: 10% -10%, 55% 30%, 90% 150%
   }
   
+  .card{
+    transition: all 0.25s;
+  }
   .card:hover{
-    -webkit-box-shadow: -1px 9px 30px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 9px 30px rgba(0,0,0,0.75);
+    transform: translateY(-15px);
     box-shadow: -1px 9px 30px rgba(0,0,0,0.75);
   }
+
+  .col-icon{
+    padding-left:12%;
+  }
+  .col-icon-mid{
+    padding-left: 8%;
+  }
+  .icon {
+    font-size: 100px;
+  }
+  
+  .flip-icon {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .flip-icon-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  }
+  
+  .flip-icon:hover .flip-icon-inner {
+   cursor: pointer;
+    transform: rotateY(180deg);
+  }
+  
+  .flip-icon-front, .flip-icon-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-icon-front {
+    background-color:white;
+  }
+  
+  .flip-icon-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+/* 
+  .icons{
+    align-content: center;
+  } */
